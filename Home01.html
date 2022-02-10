@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn..com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+      .super
+      {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+      }
+      .container
+      {
+          width:100vw;
+          height:75vh;
+          display: flex;
+          flex-direction: row;
+          padding: 1rem;
+          background-color: rgb(68, 66, 66);
+          
+
+      }
+      #div1
+      {
+          width: 25%;
+          padding: 3rem;
+          background-color:rgb(167, 167, 167) ;
+          margin:2.5rem;
+      }
+      #div2
+      {
+          width: 25%;
+          padding: 3rem;
+          background-color:rgb(167, 167, 167) ;
+          margin:2.5rem;
+      }
+      #div3
+      {
+          width: 25%;
+          padding: 3rem;
+          background-color:rgb(167, 167, 167) ;
+          margin:2.5rem;
+      }
+      /* #login
+      {
+          background-color: rgb(240, 134, 72);
+      } */
+    .buttonchange
+    {
+        margin: 0.5rem;
+    }
+    
+ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(83, 79, 79);
+    padding: 0.9rem;
+}
+li
+{
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+ li a
+{
+
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+   
+}
+ul li a:hover
+{
+    animation:newnav;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    /* background-color: rgb(236, 108, 57); */
+    border-bottom:0.2rem solid black;
+    border-color: black;
+    border-top-color: rgb(83, 79, 79);
+    border-left-color: rgb(83, 79, 79);
+    border-right-color: rgb(83, 79, 79);
+    border-bottom-color: rgb(83, 79, 79);
+    border-style:solid;
+    border-radius:0.01rem;
+    /* color: rgb(27, 25, 25); */
+}
+@keyframes newnav {
+    0%
+    {
+
+        border-bottom-color:rgb(240, 120, 51);
+    } 
+    
+    50%
+    {
+        border-bottom-color:rgb(240, 120, 51);
+    }
+    75%
+    {
+        border-bottom-color:rgb(240, 120, 51);
+    }
+    100%
+    {
+        border-bottom-color:rgb(240, 120, 51);
+    }
+    
+}
+
+  </style>
+</head>
+<body>    
+    <h1 style="text-align: center;font-weight: bold;color: rgb(235, 148, 90);">Omega</h1>
+    <ul>
+       
+        <li><a href="Home01.html">Home</a></li>
+        <li><a href="Registration01.html">Registration form</a></li>
+        <li><a href="showform.php">View Form</a></li>
+    </ul>
+ 
+   <div class="super">
+    <div class="container">
+        <div class="inner" id="div1"></div>
+        <div class="inner" id="div2"></div>
+        <div class="inner" id="div3"></div>
+    </div>
+    </div>
+</body>
+</html>
